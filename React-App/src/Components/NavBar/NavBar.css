@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.Left-container{
+    position: relative;
+    left: -100px;
+}
+.Left-container h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.Right-container{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 30px;  
+}
+.list-item a{
+    text-decoration: none;
+    color: #fff;
+}
