@@ -1,31 +1,43 @@
-.container{
-    width: 100%;
-    height: 80px;
-    background-color: gray;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
+.container {
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
 }
-.Left-container{
-    position: relative;
-    left: -100px;
+.Left-container {
+  position: relative;
+  left: -100px;
 }
-.Left-container h1 a{
-    text-decoration: none;
-    color: #fff;
+.Left-container h1 a {
+  text-decoration: none;
+  color: #fff;
 }
-.Right-container{
-    margin-left: 10px;
-    margin-top: 15px;
+.Right-container {
+  margin-left: 10px;
+  margin-top: 15px;
+  position: relative;
+  right: -90px;
 }
-.list-items{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    list-style: none;
-    gap: 30px;  
+.list-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 30px;
 }
-.list-item a{
-    text-decoration: none;
-    color: #fff;
+.list-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.list-item a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  transition: all 0.8s ease;
+}
+.list-item a:active{
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
 }
