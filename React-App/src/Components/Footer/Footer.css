@@ -32,6 +32,10 @@
 .footer-content-center h2, .footer-content-right h2{
     color: #fff;
 }
+.footer-content-center ul li a{
+    text-decoration: none;
+    color: #fff;
+}
 .footer-social-icons{
     width: 40px;
     display: flex;
