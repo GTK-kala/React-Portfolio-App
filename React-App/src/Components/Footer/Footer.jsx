@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
           <div className="footer-social-icons">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/GTK-kala"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://t.me/yourusername"
+              href="https://t.me/@gtkkala17"
               target="_blank"
               rel="noopener noreferrer"
             >
