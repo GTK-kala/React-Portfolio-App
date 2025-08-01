@@ -1,4 +1,23 @@
 .footer{
     display: grid;
     background-color: #404040;
+       margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-one{
+    color: #fff;
+    margin: 25px 0px;
+}
+.footer-two{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-two .footer-icons .footer-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 }
