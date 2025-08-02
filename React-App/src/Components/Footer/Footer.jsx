@@ -93,6 +93,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="footer-three">
+          <strong>Built</strong> By React.js and <strong> Styled</strong> with Plain CSS
+        </div>
       </div>
     </div>
   );
