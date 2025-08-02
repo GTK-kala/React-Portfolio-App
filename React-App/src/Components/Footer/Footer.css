@@ -1,7 +1,5 @@
 .footer{
-    display: grid;
-    background-color: #404040;
-       margin-top: 20px;
+    background-color: #14223b; /* Base dark color */
     display: flex;
     align-items: center;
     justify-content: center;
