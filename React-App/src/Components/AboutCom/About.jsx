@@ -1,7 +1,20 @@
 import profile_image from "../../assets/profile-img.jpg";
+import SkillBar from "./SkillBar";
 import "./About.css";
+import './SkillBar.css';
 
 const About = () => {
+  const skills = [
+    { skill: "JavaScript", level: 90 },
+    { skill: "React.js", level: 85 },
+    { skill: "Node.js", level: 75 },
+    { skill: "HTML & CSS", level: 95 },
+    { skill: "Git & GitHub", level: 80 },
+    { skill: "Java", level: 70 },
+    { skill: "C++", level: 60 },
+    { skill: "Next.js", level: 65 },
+  ];
+
   return (
     <div className="about">
       <h1>About Me</h1>
@@ -35,7 +48,7 @@ const About = () => {
               <li>
                 <strong>City:</strong>Addis Ababa
               </li>
-            </ul> 
+            </ul>
             <ul>
               <li>
                 <strong>Age:</strong>22
@@ -59,6 +72,14 @@ const About = () => {
         </div>
       </div>
       <hr />
+      <section className="skills-section">
+        <h1 className="skills-title">My Skills</h1>
+        <div className="skills-grid">
+          {skills.map((skill, index) => (
+            <SkillBar key={index} skill={skill.skill} level={skill.level} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 };
