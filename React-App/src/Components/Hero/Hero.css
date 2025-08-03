@@ -55,6 +55,6 @@
   cursor: pointer;
 }
 .hero-section .hero-button:hover {
-  background-color: #30405e;
+  background-color: #375da4;
   transform: scale(1.05);
 }

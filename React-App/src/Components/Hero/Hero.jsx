@@ -9,7 +9,7 @@ const Hero = () => {
         <img src={HeroImage} alt="" />
         <div className="hero-section">
             <h1>Khalid Daniel</h1>
-            <p>I'm a professional Software Engineer and Fullstack Developer from Addis Ababa, Ethiopia.</p>
+            <p>I'm a professional <strong>Software Engineer</strong> and <strong>Fullstack Developer</strong> from Addis Ababa, Ethiopia.</p>
             <button className="hero-button" onClick={() => navigate('/about')}>About Me</button>
         </div>
     </div>

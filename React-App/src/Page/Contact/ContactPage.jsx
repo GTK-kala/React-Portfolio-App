@@ -1,5 +1,5 @@
 
-const Contact = () => {
+const ContactPage = () => {
   return (
     <div>
         <h1>Contact Page</h1>
@@ -7,4 +7,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactPage
