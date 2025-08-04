@@ -2,6 +2,17 @@
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
+    animation: Fedin 1.2s ease-in;
+}
+@keyframes Fedin {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
 }
 .about hr{
     border: 1px solid #ccc;

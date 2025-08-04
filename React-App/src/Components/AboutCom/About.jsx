@@ -1,5 +1,6 @@
 import profile_image from "../../assets/profile-img.jpg";
 import SkillBar from "./SkillBar";
+import StatsSection from "../CounterCard/StatsSection";
 import "./About.css";
 import './SkillBar.css';
 
@@ -80,6 +81,8 @@ const About = () => {
           ))}
         </div>
       </section>
+      <hr />
+      <StatsSection />
     </div>
   );
 };
