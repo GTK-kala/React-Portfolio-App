@@ -11,24 +11,24 @@ const ContactPage = () => {
           If you have any questions or feedback, feel free to reach out to us at
         </p>
         <div className="address-info">
-           <div className="contact-info">
-           <label><CiLocationOn /></label>
-            <p>
-              <strong>Address</strong> <br /> 
-              Addis Ababa , Ethiopia
-            </p>
-
-           <label><IoCallOutline /></label>
-            <p>
-              <strong>Call Us</strong> <br /> 
-              +251 909 100 754
-            </p>
-
-           <label><MdOutlineMail /></label>
+           
+           <div className="contact-info">          
            <p>
-            <strong>Email Us</strong> <br /> 
-             gtkkala1110@gmail.com
+            <span className="icon"><CiLocationOn /></span>
+            <strong>Address</strong> <br /> 
+             <span className="address">Addis Ababa , Ethiopia</span> 
            </p>
+          
+           <p>
+            <span className="icon"><IoCallOutline /></span>
+              <strong>Call Us</strong> <br /> 
+              <span className="phone">+251 909 100 754</span>
+           </p>
+           <p>
+            <span className="icon"><MdOutlineMail /></span>
+            <strong>Email Us</strong> <br /> 
+             <span className="email">gtkkala1110@gmail.com</span>
+            </p>         
            </div>
 
            <div className="input-info">
