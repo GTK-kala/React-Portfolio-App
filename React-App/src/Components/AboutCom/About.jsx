@@ -1,4 +1,4 @@
-import profile_image from "../../assets/profile-img.jpg";
+import profile_image from '../../assets/profile.jpg'
 import SkillBar from "./SkillBar";
 import StatsSection from "../CounterCard/StatsSection";
 import "./About.css";
