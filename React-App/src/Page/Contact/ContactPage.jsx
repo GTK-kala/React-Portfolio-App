@@ -46,20 +46,20 @@ const ContactPage = () => {
           <div className="contact-form">
             <div className="contact-input">
               <label>Your Name</label>
-              <input type="text" placeholder="Enter your name" />
+              <input type="text" />
             </div>
             <div className="contact-input">
               <label>Your Email</label>
-              <input type="email" placeholder="Enter your email" />
+              <input type="email" />
             </div>
           </div>
           <div className="contact-input-subject">
             <label>Your Subject</label>
-            <input type="text" placeholder="Enter your subject" />
+            <input type="text" />
           </div>
           <div className="textarea-input">
             <label>Your Message</label>
-            <textarea placeholder="Enter your message"></textarea>
+            <textarea></textarea>
             <button type="submit">Send Message</button>
           </div>
         </div>

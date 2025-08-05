@@ -2,30 +2,42 @@
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
-    animation: Fedin 1.2s ease-in;
 }
-@keyframes Fedin {
-    0% {
-        opacity: 0;
-        transform: translateY(0);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(-20px);
-    }
-}
+
 .about hr{
     border: 1px solid #ccc;
     margin: 20px 0;
 }
 .about h1{
     text-align: center;
+    animation: fadeInh1 1s ease-in-out;
+}
+@keyframes fadeInh1 {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 .about .about-description{
     font-size: 18px;
     line-height: 1.5;
     color: #333;
     text-align: center;
+    animation: fadeIndescription 1.2s ease-in-out;
+}
+@keyframes fadeIndescription {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+  }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 .main-container{
     width: 100%;
@@ -36,6 +48,17 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+    animation: maincontainer 1.4s ease-in-out;
+}
+@keyframes maincontainer {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 .profile-image {
     width: 70%;
