@@ -5,10 +5,6 @@
   background: #1a1a1a;
   color: white;
   box-shadow: 0 4px 15px rgba(0, 180, 255, 0.3);
-  transition: transform 0.3s;
-}
-.counter-card:hover{
-  transform: translateY(-5px);
 }
 .counter-number{
   font-size: 40px;

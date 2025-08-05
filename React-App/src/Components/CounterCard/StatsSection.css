@@ -8,6 +8,18 @@
   font-size: 28px;
   margin-bottom: 40px;
   color: #00b4ff;
+  animation: fiddleIn 1s ease-in-out;
+}
+@keyframes fiddleIn{
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
 }
 .stats-grid{
   display: grid;
@@ -15,4 +27,15 @@
   gap: 30px;
   max-width: 900px;
   margin: auto;
+  animation: fiddleIngrid 1.2s ease-in-out;
+}
+@keyframes fiddleIngrid{
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
