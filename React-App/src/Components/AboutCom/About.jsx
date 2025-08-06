@@ -1,8 +1,8 @@
-import profile_image from '../../assets/profile.jpg'
+import profile_image from "../../assets/profile.jpg";
 import SkillBar from "./SkillBar";
 import StatsSection from "../CounterCard/StatsSection";
 import "./About.css";
-import './SkillBar.css';
+import "./SkillBar.css";
 
 const About = () => {
   const skills = [
@@ -24,18 +24,20 @@ const About = () => {
         developing scalable web applications.
       </p>
       <hr />
-      <div className="main-container">
-        <div className="image-container">
-          <img src={profile_image} alt="Profile" className="profile-image" />
+      <div className="about-content">
+        <div className="image-contanier">
+          <img src={profile_image} alt="" />
         </div>
-        <div className="description">
-          <h2>Software Engineer and Full Stack Developer</h2>
-          <p>
-            I specialize in building robust and efficient web applications using
-            modern technologies. My expertise includes both front-end and
-            back-end development.
-          </p>
-          <div className="info-container">
+        <div className="description-contanier">
+          <div className="description-contanier-one">
+            <h2>Software Engineer and Full Stack Developer</h2>
+            <p>
+              I specialize in building robust and efficient web applications
+              using modern technologies. My expertise includes both front-end
+              and back-end development.
+            </p>
+          </div>
+          <div className="description-contanier-two">
             <ul>
               <li>
                 <strong>Birthday:</strong>27 May 2004
@@ -50,6 +52,7 @@ const About = () => {
                 <strong>City:</strong>Addis Ababa
               </li>
             </ul>
+
             <ul>
               <li>
                 <strong>Age:</strong>22
@@ -65,14 +68,15 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <p>
-            I believe in the power of collaboration and communication in
-            software development. I enjoy working in agile environments and
-            contributing to all phases of the development lifecycle.
-          </p>
+          <div className="description-contanier-three">
+            <p className="about-text">
+              I believe in the power of collaboration and communication in
+              software development. I enjoy working in agile environments and
+              contributing to all phases of the development lifecycle.
+            </p>
+          </div>
         </div>
       </div>
-      <hr />
       <section className="skills-section">
         <h1 className="skills-title">My Skills</h1>
         <div className="skills-grid">
