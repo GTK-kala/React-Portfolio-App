@@ -8,6 +8,18 @@
   align-content: center;
   justify-content: space-around;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .Left-container h1 {
+    position: relative;
+    left: -50px;
+  }
+  .Right-container{
+    display: none;
+  }
+}
 .Left-container {
   position: relative;
   left: -100px;
