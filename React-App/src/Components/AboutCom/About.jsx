@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <div className="about">
-      <h1>About Me</h1>
+      <h1 className="heading">About Me</h1>
       <p className="about-description">
         I'm a passionate Software Engineer with a strong background in
         developing scalable web applications.
@@ -27,7 +27,7 @@ const About = () => {
       <div className="about-content">
           <img src={profile_image} alt="" />       
         <div className="description-container">
-          <div className="description-contanier-one">
+          <div className="description-container-one">
             <h2>Software Engineer and Full Stack Developer</h2>
             <p>
               I specialize in building robust and efficient web applications
@@ -35,38 +35,38 @@ const About = () => {
               and back-end development.
             </p>
           </div>
-          <div className="description-contanier-two">
-            <ul>
+          <div className="description-container-two">
+            <ul className="about-list">
               <li>
-                <strong>Birthday:</strong>27 May 2004
+                <strong>Birthday :</strong>27 May 2004
               </li>
               <li>
-                <strong>Website:</strong>www.example.com
+                <strong>Website :</strong>www.example.com
               </li>
               <li>
-                <strong>Phone:</strong>+251 910 090 754
+                <strong>Phone :</strong>+251 910 090 754
               </li>
               <li>
-                <strong>City:</strong>Addis Ababa
+                <strong>City :</strong>Addis Ababa
               </li>
             </ul>
 
-            <ul>
+            <ul className="about-list">
               <li>
-                <strong>Age:</strong>22
+                <strong>Age :</strong>22
               </li>
               <li>
-                <strong>Degree:</strong>Bachelor's in Software Engineering
+                <strong>Degree :</strong>Bachelor's in Software Engineering
               </li>
               <li>
-                <strong>Email:</strong>gtkkala1110@gmail.com
+                <strong>Email :</strong>gtkkala1110@gmail.com
               </li>
               <li>
-                <strong>Freelance:</strong>Available
+                <strong>Freelance :</strong>Available
               </li>
             </ul>
           </div>
-          <div className="description-contanier-three">
+          <div className="description-container-three">
             <p className="about-text">
               I believe in the power of collaboration and communication in
               software development. I enjoy working in agile environments and
