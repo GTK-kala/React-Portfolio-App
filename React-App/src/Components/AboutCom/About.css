@@ -1,0 +1,34 @@
+.about h1,
+.about .about-description {
+  text-align: center;
+  color: #333;
+  margin-bottom: 0px;
+}
+.about .about-description {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+.about hr {
+  width: 95%;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+}
+.about-content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 10px auto;
+}
+.about-content img {
+  width: 80%;
+  height: 450px;
+  margin-left: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}

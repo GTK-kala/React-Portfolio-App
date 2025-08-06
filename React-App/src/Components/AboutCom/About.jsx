@@ -25,10 +25,8 @@ const About = () => {
       </p>
       <hr />
       <div className="about-content">
-        <div className="image-contanier">
-          <img src={profile_image} alt="" />
-        </div>
-        <div className="description-contanier">
+          <img src={profile_image} alt="" />       
+        <div className="description-container">
           <div className="description-contanier-one">
             <h2>Software Engineer and Full Stack Developer</h2>
             <p>
@@ -77,6 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <hr />
       <section className="skills-section">
         <h1 className="skills-title">My Skills</h1>
         <div className="skills-grid">
