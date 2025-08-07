@@ -1,0 +1,14 @@
+.projects-section {
+  padding: 50px 20px;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 40px;
+  justify-content: center;
+}
