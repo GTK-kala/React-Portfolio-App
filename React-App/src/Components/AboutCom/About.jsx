@@ -9,11 +9,13 @@ const About = () => {
     { skill: "JavaScript", level: 90 },
     { skill: "React.js", level: 85 },
     { skill: "Node.js", level: 75 },
+    { skill: "Bootstrap", level: 70 },
     { skill: "HTML & CSS", level: 95 },
     { skill: "Git & GitHub", level: 80 },
     { skill: "Java", level: 70 },
     { skill: "C++", level: 60 },
     { skill: "Next.js", level: 65 },
+    { skill: "Tailwind CSS", level: 80 }
   ];
 
   return (

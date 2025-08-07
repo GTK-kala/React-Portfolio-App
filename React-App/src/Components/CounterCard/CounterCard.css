@@ -6,6 +6,13 @@
   color: white;
   box-shadow: 0 4px 15px rgba(0, 180, 255, 0.3);
 }
+.counter-card:hover{
+  background: #262626;
+  box-shadow: 0 8px 20px rgba(36, 98, 121, 0.4);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
 .counter-number{
   font-size: 40px;
   font-weight: bold;
@@ -14,5 +21,5 @@
 }
 .counter-label{
   font-size: 18px;
-  color: #cccccc;
+  color: #00b4ff;
 }

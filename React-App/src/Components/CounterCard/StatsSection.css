@@ -1,5 +1,9 @@
 .stats-section{
-  padding: 60px 20px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 12px;
   background-color: #0f1a2d;
   color: white;
   border-radius: 17px;
