@@ -46,6 +46,46 @@
   margin: 10px auto;
   animation: contentFadeIn 1.3s ease-in-out;
 }
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-description{
+    text-align: center;
+    margin: 18px auto;
+    font-weight: 400;
+    color: #4f4e4e;
+  }
+  .about-content img {
+   position: relative;
+    left: 20px;
+    width: 90%;
+    height: 300px;
+    margin-left: 0;
+  }
+  .description-container{
+    margin-left: 20px;
+    padding: 0px;
+  }
+  .description-container-one , 
+  .description-container-two , 
+  .description-container-three , 
+  .about-divider {
+    position: relative;
+    top: -24px;
+  }
+.description-container-one h2{
+  text-align: center;
+}
+.description-container-two .about-list{ 
+  position: relative;
+  gap: 14px;
+  left: 10px;
+  }
+  .description-container-two .about-list li{
+    display: inline;
+  }
+}
 .about-content img {
   width: 75%;
   height: 380px;

@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className="about-divider" />
       <section className="skills-section">
         <h1 className="skills-title">My Skills</h1>
         <div className="skills-grid">
