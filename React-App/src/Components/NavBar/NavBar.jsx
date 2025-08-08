@@ -1,17 +1,21 @@
 import { Link } from 'react-router-dom'
 import { RxHamburgerMenu } from "react-icons/rx";
-import { use, useState } from 'react';
+import { useState } from 'react';
 import './NavBar.css'
 
 const NavBar = () => {
 
  const [toggle , setToggle] = useState('');
+ const [isOpen, setIsOpen] = useState('');
+
     // Function to handle the toggle state for the navigation menu
    const ToggleHandel = () => {
      if (toggle === '') {
        setToggle('clicked');
+        setIsOpen('open');
      } else {
        setToggle('');
+       setIsOpen('');
      }
   }
   return (
@@ -23,7 +27,7 @@ const NavBar = () => {
         </div>
 {/*-----------------------NavBar Center Side---------------------- */}
         <div className={`Right-container ${toggle}`}>
-           <ul className="list-items">
+           <ul className={`list-items ${isOpen}`}>
             <li onClick={ () => setToggle('')}  className={`list-item`}>
                 <Link to='/'>HOME</Link>
             </li>
