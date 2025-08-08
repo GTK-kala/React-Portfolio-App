@@ -7,7 +7,7 @@
   background-color: #1a2c4a;
   display: flex;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 @media (max-width: 768px) {
   .container {
@@ -15,7 +15,7 @@
   }
   .Left-container h1 {
     position: relative;
-    left: -60px;
+    left: 45px;
   }
   .Right-container{
     display: none;
@@ -23,7 +23,7 @@
 }
 .Left-container {
   position: relative;
-  left: -100px;
+  left: -120px;
 }
 .Left-container h1 a {
   text-decoration: none;
@@ -33,7 +33,7 @@
   margin-left: 10px;
   margin-top: 15px;
   position: relative;
-  right: -90px;
+  right: -140px;
 }
 .list-items {
   display: flex;
@@ -55,4 +55,16 @@
 .list-item a:active{
   text-decoration: underline;
   text-decoration-thickness: 3px;
+}
+.burger-icon {
+  display: none;
+  position: relative;
+  right: -55px;
+  top: 3px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .burger-icon {
+    display: block;
+  }
 }

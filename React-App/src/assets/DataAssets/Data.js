@@ -17,3 +17,87 @@ export const stats = [
   { label: 'Hours Of Support', target: 3000 },
   { label: 'Workers', target: 15 },
 ];
+
+export const projects = [
+  {
+    title: 'Food Delivery App',
+    description: 'A full-stack food delivery web app using React and Plan css.',
+    tech: ['React', 'Plan css', 'MongoDB' , 'Express.js' , 'Node.js'],
+    githubLink: 'https://github.com/GTK-kala/React-Food-Delivery-App',
+    liveLink: 'https://yourfoodapp.netlify.app',
+    image: '/images/food-app.png',
+  },
+  // Food Delivery App
+  {
+    title: 'Portfolio Website',
+    description: 'My personal portfolio website built with React and Plan css.',
+    tech: ['React', 'Plan css'],
+    githubLink: 'https://github.com/GTK-kala/React-Portfolio-App',
+    liveLink: 'https://yourportfolio.netlify.app',
+    image: '/images/portfolio.png',
+  }, 
+  // Portfolio Website
+  {
+    title: 'E-Commerce-WebApp',
+    description: 'An E-Commerce WebApp build Using React.js and Styled by Tailwind css.',
+    tech: ['React', 'Tailwind css', 'Node.js' , 'MongoDB' , 'Express.js'],
+    githubLink: 'https://github.com/GTK-kala/React-E-Commerce-WebApp',
+    liveLink: 'https://yourportfolio.netlify.app',
+    image: '/images/portfolio.png',
+  }, 
+  // E-Commerce-WebApp
+  {
+    title: 'Weather App',
+    description: 'Weather app build by React.js and Fetch Api.',
+    tech: ['React', 'Plan css' , 'Fetch Api'],
+    githubLink: 'https://github.com/GTK-kala/React-Weather-App',
+    liveLink: 'https://yourportfolio.netlify.app',
+    image: '/images/portfolio.png',
+  }, 
+  // Weather App
+  {
+    title: 'Tic Tac Toe',
+    description: 'Tic Tac Toe game built with React.js and Fetch API.',
+    tech: ['React', 'CSS', 'Fetch API'],
+    githubLink: 'https://github.com/GTK-kala/React-Tic-Tac-Game-App',
+    liveLink: 'https://yourportfolio.netlify.app',
+    image: '/images/portfolio.png',
+  }, 
+  // Tic Tac Toe
+  {
+    title: 'To-Do List',
+    description: 'To-Do List app built with React.js and Tailwind CSS.',
+    tech: ['React', 'CSS', 'Fetch API'],
+    githubLink: 'https://github.com/GTK-kala/React-Tailwind-To-Do-list-App',
+    liveLink: 'https://yourportfolio.netlify.app',
+    image: '/images/portfolio.png',
+  }, 
+  // To-Do List
+  {
+    title: 'Simple Password Generator',
+    description: 'Simple Password Generator app built with JavaScript.',
+    tech: ['JavaScript', 'HTML', 'CSS'],
+    githubLink: 'https://github.com/GTK-kala/Simple-password-Generator-Javascript-',
+    liveLink: 'https://yourportfolio.netlify.app',
+    image: '/images/portfolio.png',
+  },
+  // Simple Password Generator
+  {
+   title: 'Quiz App',
+   description: 'Quiz App built with React.js and Tailwind CSS.',
+   tech: ['React', 'Tailwind CSS'],
+   githubLink: 'https://github.com/GTK-kala/React-Quiz-App',
+   liveLink: 'https://yourportfolio.netlify.app',
+   image: '/images/portfolio.png',
+  },
+  // Quiz App
+  {
+   title: 'Blog App',
+   description: 'Blog App built with JavaScript and Tailwind CSS.',
+   tech: ['JavaScript', 'Tailwind CSS'],
+   githubLink: 'https://github.com/GTK-kala/Tailwind-css-project-',
+   liveLink: 'https://yourportfolio.netlify.app',
+   image: '/images/portfolio.png',
+  }
+  // Blog App
+];

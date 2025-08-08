@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { RxHamburgerMenu } from "react-icons/rx";
 import './NavBar.css'
 
 const NavBar = () => {
@@ -10,7 +11,7 @@ const NavBar = () => {
         <div className="Left-container">
            <h1><Link to='/'>KHALID</Link></h1>
         </div>
-{/*-----------------------NavBar Right Side---------------------- */}
+{/*-----------------------NavBar Center Side---------------------- */}
         <div className="Right-container">
            <ul className="list-items">
             <li  className="list-item">
@@ -26,6 +27,10 @@ const NavBar = () => {
                 <Link to="/contact">CONTACT</Link>
             </li>
            </ul>
+        </div>
+{/*-----------------------NavBar Right Side---------------------- */}
+        <div className="burger-icon">
+            <h1 className='icon'><RxHamburgerMenu /></h1>
         </div>
     </div>
   )
