@@ -1,14 +1,11 @@
 import CounterCard from './CounterCard';
 import './StatsSection.css';
-
-const stats = [
-  { label: 'Clients', target: 120 },
-  { label: 'Projects', target: 75 },
-  { label: 'Hours Of Support', target: 3000 },
-  { label: 'Workers', target: 15 },
-];
-
+import { DataContext } from '../../Context/DataContext';
+import { useContext } from 'react';
 const StatsSection = () => {
+
+  const { stats } = useContext(DataContext);
+
   return (
     <section className="stats-section">
       <h2 className="stats-title">Our Achievements</h2>
