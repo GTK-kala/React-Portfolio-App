@@ -19,7 +19,7 @@ const projects = [
     liveLink: 'https://yourportfolio.netlify.app',
     image: '/images/portfolio.png',
   },
-  // Add more projects as needed
+ 
 ];
 
 const Project = () => {

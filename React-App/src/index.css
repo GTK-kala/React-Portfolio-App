@@ -3,6 +3,8 @@
 body{
     margin: 0;
     padding: 2px;
+    padding-left: 4px;
+    padding-bottom: 5px;
     font-family: "Outfit", sans-serif;
     scroll-behavior: smooth;
 }
