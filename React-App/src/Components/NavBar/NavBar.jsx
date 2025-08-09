@@ -20,7 +20,7 @@ const NavBar = () => {
   }
   return (
     
-    <div className="container">
+    <div className="container" id='top'>
 {/*-----------------------NavBar Left Side---------------------- */}
         <div className="Left-container">
            <h1><Link to='/'>KHALID</Link></h1>

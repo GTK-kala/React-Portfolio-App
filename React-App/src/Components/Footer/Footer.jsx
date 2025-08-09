@@ -1,3 +1,4 @@
+import { FaArrowUp } from "react-icons/fa6";
 import "./Footer.css";
 
 const Footer = () => {
@@ -95,6 +96,9 @@ const Footer = () => {
         </div>
         <div className="footer-three">
           <strong>Built</strong> By React.js and <strong> Styled</strong> with Plain CSS
+        </div>
+        <div className="footer-four">
+          <a href="#root" className="scroll-to-top" tooltip="Scroll to Top"><FaArrowUp /></a>
         </div>
       </div>
     </div>
