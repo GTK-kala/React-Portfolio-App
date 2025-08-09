@@ -95,11 +95,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-three">
-          <strong>Built</strong> By React.js and <strong> Styled</strong> with Plain CSS
+          <strong>Built</strong> By React.js and <strong> Styled</strong> with
+          Plain CSS
         </div>
-        <div className="footer-four">
-          <a href="#root" className="scroll-to-top" tooltip="Scroll to Top"><FaArrowUp /></a>
-        </div>
+      </div>
+      <div className="footer-container">
+        <a href="#root" className="scroll-to-top" tooltip="Scroll to Top">
+          <FaArrowUp />
+        </a>
       </div>
     </div>
   );
