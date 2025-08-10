@@ -175,6 +175,14 @@
     width: 100%;
     box-sizing: border-box;
 }
+.contact-input input:focus{
+    outline: none;
+    border: 1px solid #4b6ef7;
+}
+.contact-input-subject input:focus{
+    outline: none;
+    border: 1px solid #4b6ef7;
+}
 .textarea-input button{
     padding: 12px;
     border: 1px solid #4b6ef7;
@@ -184,6 +192,10 @@
     font-size: 0.9rem;
     cursor: pointer;
     transition: all 0.8s ease-in-out;
+}
+.textarea-input textarea:focus{
+    outline: none;
+    border: 1px solid #4b6ef7;
 }
 .textarea-input button:hover{
     background-color: #3a5cd7;

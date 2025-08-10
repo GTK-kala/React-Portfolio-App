@@ -46,16 +46,20 @@
   text-decoration: none;
   color: #fff;
 }
-.list-item a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 4px;
-  transition: all 0.8s ease;
+.list-items .active {
+  border-bottom: 3px solid #fff;
+  animation: link 0.7s ease-in-out;
 }
-.list-item a:active {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-}
+/* @keyframes link {
+  to {
+    opacity: 1;
+    transform: translate(90deg);
+  }
+  from {
+    opacity: 0;
+    transform: rotatey(0deg);
+  }
+} */
 .burger-icon {
   display: none;
   position: relative;
@@ -69,6 +73,7 @@
   }
   .clicked {
     position: absolute;
+    text-decoration: none;
     z-index: 10000;
     top: 81px;
     right: 7px;

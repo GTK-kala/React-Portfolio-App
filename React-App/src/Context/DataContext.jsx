@@ -20,14 +20,8 @@ const DataContextProvider = (props) => {
   };
 
   let contextValue = {
-    skills,
-    stats,
-    projects,
-    ToggleHandel,
-    setToggle,
-    setIsOpen,
-    toggle,
-    isOpen
+    skills , stats , projects , ToggleHandel,
+    setToggle , setIsOpen , toggle , isOpen
   };
   return (
     <>

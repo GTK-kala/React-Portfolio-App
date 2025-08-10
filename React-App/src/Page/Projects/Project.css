@@ -7,23 +7,46 @@
   border-radius: 10px;
   margin-bottom: 4px;
 }
-
+.projects-section h2 {
+  animation: fidin 0.8s ease-in-out;
+}
+@keyframes fidin {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
 .projects-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 40px;
   justify-content: center;
+  animation: FIDIN 1s ease-in-out;
 }
-@media (max-width: 768px){
-  .projects-grid{
+@keyframes FIDIN {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+@media (max-width: 768px) {
+  .projects-grid {
     padding: 0px 20px;
     position: relative;
     left: -15px;
   }
-  .projects-grid{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
