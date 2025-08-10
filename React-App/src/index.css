@@ -7,4 +7,5 @@ body{
     padding-bottom: 5px;
     font-family: "Outfit", sans-serif;
     scroll-behavior: smooth;
+    transition: all 1s ease-in-out;
 }

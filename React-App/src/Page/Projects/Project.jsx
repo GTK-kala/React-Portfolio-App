@@ -4,10 +4,10 @@ import { DataContext } from '../../Context/DataContext';
 import { useContext } from 'react';
 
 const Project = () => {
-  const { projects } = useContext(DataContext);
+  const { projects  , setToggle} = useContext(DataContext);
 
   return (
-    <section className="projects-section">
+    <section className="projects-section" onClick={() => setToggle('')}>
       <h2>My Projects</h2>
       <div className="projects-grid">
         {projects.map((proj, i) => (

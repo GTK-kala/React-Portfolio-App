@@ -8,10 +8,10 @@ import { useContext } from "react";
 
 const About = () => {
 
-  const { skills } = useContext(DataContext);
+  const { skills , setToggle } = useContext(DataContext);
 
   return (
-    <div className="about">
+    <div className="about" onClick={() => setToggle('')}>
       <h1 className="heading">About Me</h1>
       <p className="about-description">
         I'm a passionate Software Engineer with a strong background in

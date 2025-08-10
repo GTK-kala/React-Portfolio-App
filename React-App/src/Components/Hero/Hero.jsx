@@ -1,11 +1,14 @@
 import './Hero.css';
 import HeroImage from '../../assets/Images/img.png';
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { DataContext } from '../../Context/DataContext'
 const Hero = () => {
   const navigate = useNavigate();
+  const {setToggle} = useContext(DataContext)
 
   return (
-    <div className="hero">
+    <div className="hero" onClick={() =>setToggle('')}>
         <img src={HeroImage} alt="" />
         <div className="hero-section">
             <h1>Khalid Daniel</h1>

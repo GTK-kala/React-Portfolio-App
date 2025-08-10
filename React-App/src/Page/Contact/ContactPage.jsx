@@ -2,10 +2,14 @@ import { CiLocationOn } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import "./Contact.css";
+import { useContext } from "react";
+import {DataContext} from '../../Context/DataContext'
 
 const ContactPage = () => {
+   
+   const {setToggle} = useContext(DataContext)
   return (
-    <div className="contact-page">
+    <div className="contact-page" onClick={() => setToggle('')}>
       <h1>Contact</h1>
       <p className="contact-description">
         If you have any questions or feedback, feel free to reach out to us at

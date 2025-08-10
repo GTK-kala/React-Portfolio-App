@@ -1,23 +1,13 @@
 import { Link } from 'react-router-dom'
 import { RxHamburgerMenu } from "react-icons/rx";
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { DataContext } from '../../Context/DataContext';
 import './NavBar.css'
 
 const NavBar = () => {
 
- const [toggle , setToggle] = useState('');
- const [isOpen, setIsOpen] = useState('');
+  const { ToggleHandel , setToggle  , toggle , isOpen} = useContext(DataContext);
 
-    // Function to handle the toggle state for the navigation menu
-   const ToggleHandel = () => {
-     if (toggle === '') {
-       setToggle('clicked');
-        setIsOpen('open');
-     } else {
-       setToggle('');
-       setIsOpen('');
-     }
-  }
   return (
     
     <div className="container" id='top'>
