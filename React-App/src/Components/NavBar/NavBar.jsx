@@ -7,7 +7,7 @@ import './NavBar.css'
 const NavBar = () => {
    
    const [click, setClick] = useState('HOME');
-   const { ToggleHandel , setToggle  , toggle , isOpen , NavLink} = useContext(DataContext);
+   const { ToggleHandel , setToggle  , toggle , isOpen } = useContext(DataContext);
 
 
   return (

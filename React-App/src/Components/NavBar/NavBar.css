@@ -46,19 +46,8 @@
   text-decoration: none;
   color: #fff;
 }
-.list-items .active {
+/* .list-items .active {
   border-bottom: 3px solid #fff;
-  animation: link 0.7s ease-in-out;
-}
-/* @keyframes link {
-  to {
-    opacity: 1;
-    transform: translate(90deg);
-  }
-  from {
-    opacity: 0;
-    transform: rotatey(0deg);
-  }
 } */
 .burger-icon {
   display: none;
@@ -75,7 +64,7 @@
     position: absolute;
     text-decoration: none;
     z-index: 10000;
-    top: 81px;
+    top: 83px;
     right: 7px;
     width: 30%;
     height: 35%;
@@ -83,33 +72,22 @@
     background-color: #111;
     display: flex;
     flex-direction: row;
-    align-items: start;
-    justify-content: start;
-    animation: fidin 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
-  }
-  @keyframes fidin {
-    to {
-      opacity: 1;
-      transform: translate(90deg);
-    }
-    from {
-      opacity: 0;
-      transform: rotatey(0deg);
-    }
+    align-items: center;
+    justify-content: space-between;
+    animation: fade-in 0.6s ease-in-out;
   }
   .open {
     display: grid;
-    animation: fidin 0.6s ease-in-out;
+    /* animation: fade-in 0.7s ease-in-out; */
   }
-  @keyframes fidin {
-    to {
-      opacity: 1;
-      transform: translate(180deg);
-    }
-    from {
-      opacity: 0;
-      transform: rotatex(45deg);
-    }
+  @keyframes fade-in {
+  to{
+   opacity: 1;
+   transform: translateX(0px);
   }
+  from{
+    opacity: 0;
+    transform: translateX(70px);
+  }
+}
 }
