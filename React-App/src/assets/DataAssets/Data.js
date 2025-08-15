@@ -1,3 +1,8 @@
+import FoodImage from '../Images/FoodImage.png'
+import PortfolioImage from '../Images/PortfolioImage.png'
+import EcommerceImage from '../Images/EcommerceImage.png'
+import WeatherImage from '../Images/WeatherImage.png'
+
 export const skills = [
     { skill: "JavaScript", level: 90 },
     { skill: "React.js", level: 85 },
@@ -25,7 +30,7 @@ export const projects = [
     tech: ['React', 'Plan css', 'MongoDB' , 'Express.js' , 'Node.js'],
     githubLink: 'https://github.com/GTK-kala/React-Food-Delivery-App',
     liveLink: 'https://yourfoodapp.netlify.app',
-    image: '/images/food-app.png',
+    image: FoodImage,
   },
   // Food Delivery App
   {
@@ -34,7 +39,7 @@ export const projects = [
     tech: ['React', 'Plan css'],
     githubLink: 'https://github.com/GTK-kala/React-Portfolio-App',
     liveLink: 'https://yourportfolio.netlify.app',
-    image: '/images/portfolio.png',
+    image: PortfolioImage,
   }, 
   // Portfolio Website
   {
@@ -43,7 +48,7 @@ export const projects = [
     tech: ['React', 'Tailwind css', 'Node.js' , 'MongoDB' , 'Express.js'],
     githubLink: 'https://github.com/GTK-kala/React-E-Commerce-WebApp',
     liveLink: 'https://yourportfolio.netlify.app',
-    image: '/images/portfolio.png',
+    image: EcommerceImage,
   }, 
   // E-Commerce-WebApp
   {
@@ -52,7 +57,7 @@ export const projects = [
     tech: ['React', 'Plan css' , 'Fetch Api'],
     githubLink: 'https://github.com/GTK-kala/React-Weather-App',
     liveLink: 'https://yourportfolio.netlify.app',
-    image: '/images/portfolio.png',
+    image: WeatherImage,
   }, 
   // Weather App
   {
@@ -63,7 +68,7 @@ export const projects = [
     liveLink: 'https://yourportfolio.netlify.app',
     image: '/images/portfolio.png',
   }, 
-  // Tic Tac Toe
+  // Tic Tac Toe game
   {
     title: 'To-Do List',
     description: 'To-Do List app built with React.js and Tailwind CSS.',
@@ -72,7 +77,7 @@ export const projects = [
     liveLink: 'https://yourportfolio.netlify.app',
     image: '/images/portfolio.png',
   }, 
-  // To-Do List
+  // To-Do List app
   {
     title: 'Simple Password Generator',
     description: 'Simple Password Generator app built with JavaScript.',
@@ -81,7 +86,7 @@ export const projects = [
     liveLink: 'https://yourportfolio.netlify.app',
     image: '/images/portfolio.png',
   },
-  // Simple Password Generator
+  // Simple Password Generator app
   {
    title: 'Quiz App',
    description: 'Quiz App built with React.js and Tailwind CSS.',
