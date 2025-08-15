@@ -37,7 +37,7 @@ export const projects = [
     title: 'Portfolio Website',
     description: 'My personal portfolio website built with React and Plan css.',
     tech: ['React', 'Plan css'],
-    githubLink: 'https://github.com/GTK-kala/React-Portfolio-App',
+    githubLink: '',
     liveLink: 'https://yourportfolio.netlify.app',
     image: PortfolioImage,
   }, 
