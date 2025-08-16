@@ -2,6 +2,8 @@ import FoodImage from '../Images/FoodImage.png'
 import PortfolioImage from '../Images/PortfolioImage.png'
 import EcommerceImage from '../Images/EcommerceImage.png'
 import WeatherImage from '../Images/WeatherImage.png'
+import TicToeImage from '../Images/TicToeImage.png'
+import TodolistImage from '../Images/TodolistImage.png'
 
 export const skills = [
     { skill: "JavaScript", level: 90 },
@@ -66,7 +68,7 @@ export const projects = [
     tech: ['React', 'CSS', 'Fetch API'],
     githubLink: 'https://github.com/GTK-kala/React-Tic-Tac-Game-App',
     liveLink: 'https://yourportfolio.netlify.app',
-    image: '/images/portfolio.png',
+    image: TicToeImage,
   }, 
   // Tic Tac Toe game
   {
