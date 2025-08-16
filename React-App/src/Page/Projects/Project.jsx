@@ -8,7 +8,7 @@ const Project = () => {
 
   return (
     <section className="projects-section" onClick={() => setToggle('')}>
-      <h2>My Projects</h2>
+      <h1>My Projects</h1>
       <div className="projects-grid">
         {projects.map((proj, i) => (
           <ProjectCard key={i} {...proj} />

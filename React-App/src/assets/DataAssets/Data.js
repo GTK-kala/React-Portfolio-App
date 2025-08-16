@@ -4,6 +4,9 @@ import EcommerceImage from '../Images/EcommerceImage.png'
 import WeatherImage from '../Images/WeatherImage.png'
 import TicToeImage from '../Images/TicToeImage.png'
 import TodolistImage from '../Images/TodolistImage.png'
+import PasswordImage from '../Images/PasswordImage.png'
+import QuizImage from '../Images/QuizImage.png'
+import BlogImage from '../Images/BlogImage.png'
 
 export const skills = [
     { skill: "JavaScript", level: 90 },
@@ -77,7 +80,7 @@ export const projects = [
     tech: ['React', 'CSS', 'Fetch API'],
     githubLink: 'https://github.com/GTK-kala/React-Tailwind-To-Do-list-App',
     liveLink: 'https://yourportfolio.netlify.app',
-    image: '/images/portfolio.png',
+    image: TodolistImage,
   }, 
   // To-Do List app
   {
@@ -86,7 +89,7 @@ export const projects = [
     tech: ['JavaScript', 'HTML', 'CSS'],
     githubLink: 'https://github.com/GTK-kala/Simple-password-Generator-Javascript-',
     liveLink: 'https://yourportfolio.netlify.app',
-    image: '/images/portfolio.png',
+    image: PasswordImage,
   },
   // Simple Password Generator app
   {
@@ -95,7 +98,7 @@ export const projects = [
    tech: ['React', 'Tailwind CSS'],
    githubLink: 'https://github.com/GTK-kala/React-Quiz-App',
    liveLink: 'https://yourportfolio.netlify.app',
-   image: '/images/portfolio.png',
+   image: QuizImage,
   },
   // Quiz App
   {
@@ -104,7 +107,7 @@ export const projects = [
    tech: ['JavaScript', 'Tailwind CSS'],
    githubLink: 'https://github.com/GTK-kala/Tailwind-css-project-',
    liveLink: 'https://yourportfolio.netlify.app',
-   image: '/images/portfolio.png',
+   image: BlogImage,
   }
   // Blog App
 ];
