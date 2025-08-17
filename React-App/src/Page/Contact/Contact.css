@@ -185,7 +185,7 @@
 }
 .textarea-input button{
     padding: 12px;
-    border: 1px solid #4b6ef7;
+    border: 2px dashed #4b6ef7;
     border-radius: 40px;
     background-color: #fff;
     color: #4b6ef7;
@@ -199,6 +199,7 @@
 }
 .textarea-input button:hover{
     background-color: #3a5cd7;
+    border: 2px solid #4b6ef7;
     cursor: pointer;
     color: #fff;
 }
