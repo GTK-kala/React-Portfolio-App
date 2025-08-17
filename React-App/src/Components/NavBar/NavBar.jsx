@@ -15,7 +15,7 @@ const NavBar = () => {
     <div className="container" id='top'>
 {/*-----------------------NavBar Left Side---------------------- */}
         <div className="Left-container">
-           <h1><Link to='/'>KHALID</Link></h1>
+           <h1 onClick={() => setToggle('')}><Link to='/'>KHALID</Link></h1>
         </div>
 {/*-----------------------NavBar Center Side---------------------- */}
         <div className={`Right-container ${toggle}`}>
