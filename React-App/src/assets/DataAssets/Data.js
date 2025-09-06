@@ -36,7 +36,7 @@ export const projects = [
     description: 'A full-stack food delivery web app using React and Plan css.',
     tech: ['React', 'Plan css', 'MongoDB' , 'Express.js' , 'Node.js'],
     githubLink: 'https://github.com/GTK-kala/React-Food-Delivery-App',
-    liveLink: 'https://yourfoodapp.netlify.app',
+    liveLink: 'https://gtk-kala.github.io/React-Food-Delivery-App/',
     image: FoodImage,
   },
   // Food Delivery App
@@ -44,8 +44,8 @@ export const projects = [
     title: 'Portfolio Website',
     description: 'My personal portfolio website built with React and Plan css.',
     tech: ['React', 'Plan css'],
-    githubLink: '',
-    liveLink: 'https://yourportfolio.netlify.app',
+    githubLink: 'https://github.com/GTK-kala/React-Portfolio-App',
+    liveLink: 'https://GTK-kala.github.io/React-Portfolio-App/',
     image: PortfolioImage,
   }, 
   // Portfolio Website
@@ -54,7 +54,7 @@ export const projects = [
     description: 'An E-Commerce WebApp build Using React.js and Styled by Tailwind css.',
     tech: ['React', 'Tailwind css', 'Node.js' , 'MongoDB' , 'Express.js'],
     githubLink: 'https://github.com/GTK-kala/React-E-Commerce-WebApp',
-    liveLink: 'https://yourportfolio.netlify.app',
+    liveLink: 'https://GTK-kala.github.io/React-Portfolio-App/',
     image: EcommerceImage,
   }, 
   // E-Commerce-WebApp
