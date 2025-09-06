@@ -91,6 +91,7 @@
   height: 380px;
   margin-left: 50px;
   border-radius: 10px;
+  image-rendering: pixelated;
   object-fit: cover;
 }
 @keyframes contentFadeIn {
