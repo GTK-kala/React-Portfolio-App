@@ -1,5 +1,5 @@
 <h1 align="center">
-  🌈✨ Personal Portfolio Web App ✨🌈  
+  ✨ Personal Portfolio Web App ✨
 </h1>
 
 <p align="center">
